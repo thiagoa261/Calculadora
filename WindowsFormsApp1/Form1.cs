@@ -23,6 +23,7 @@ namespace WindowsFormsApp1
 			InitializeComponent();
 
 			TelaResultados.Text = "0";
+			TelaHistorico.Text = "";
 
 			// Mais prático que criar uma função para cada botão
 			this.btnN0.Click += new System.EventHandler(this.ClicouNumero);
