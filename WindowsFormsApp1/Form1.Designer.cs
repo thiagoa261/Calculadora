@@ -47,130 +47,146 @@ namespace WindowsFormsApp1
 			this.btnN0 = new System.Windows.Forms.Button();
 			this.btnLimpa = new System.Windows.Forms.Button();
 			this.TelaResultados = new System.Windows.Forms.Label();
+			this.TelaHistorico = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// btnN7
 			// 
-			this.btnN7.Location = new System.Drawing.Point(14, 95);
+			this.btnN7.Cursor = System.Windows.Forms.Cursors.No;
+			this.btnN7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnN7.Location = new System.Drawing.Point(7, 161);
 			this.btnN7.Name = "btnN7";
-			this.btnN7.Size = new System.Drawing.Size(51, 38);
+			this.btnN7.Size = new System.Drawing.Size(61, 44);
 			this.btnN7.TabIndex = 0;
 			this.btnN7.Text = "7";
 			this.btnN7.UseVisualStyleBackColor = true;
 			// 
 			// btnN8
 			// 
-			this.btnN8.Location = new System.Drawing.Point(71, 95);
+			this.btnN8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnN8.Location = new System.Drawing.Point(74, 161);
 			this.btnN8.Name = "btnN8";
-			this.btnN8.Size = new System.Drawing.Size(51, 38);
+			this.btnN8.Size = new System.Drawing.Size(61, 44);
 			this.btnN8.TabIndex = 1;
 			this.btnN8.Text = "8";
 			this.btnN8.UseVisualStyleBackColor = true;
 			// 
 			// btnN9
 			// 
-			this.btnN9.Location = new System.Drawing.Point(128, 95);
+			this.btnN9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnN9.Location = new System.Drawing.Point(141, 161);
 			this.btnN9.Name = "btnN9";
-			this.btnN9.Size = new System.Drawing.Size(51, 38);
+			this.btnN9.Size = new System.Drawing.Size(61, 44);
 			this.btnN9.TabIndex = 2;
 			this.btnN9.Text = "9";
 			this.btnN9.UseVisualStyleBackColor = true;
 			// 
 			// btnSoma
 			// 
-			this.btnSoma.Location = new System.Drawing.Point(185, 95);
+			this.btnSoma.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnSoma.Location = new System.Drawing.Point(208, 161);
 			this.btnSoma.Name = "btnSoma";
-			this.btnSoma.Size = new System.Drawing.Size(51, 38);
+			this.btnSoma.Size = new System.Drawing.Size(61, 44);
 			this.btnSoma.TabIndex = 3;
 			this.btnSoma.Text = "+";
 			this.btnSoma.UseVisualStyleBackColor = true;
 			// 
 			// btnSubtrae
 			// 
-			this.btnSubtrae.Location = new System.Drawing.Point(185, 139);
+			this.btnSubtrae.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnSubtrae.Location = new System.Drawing.Point(208, 211);
 			this.btnSubtrae.Name = "btnSubtrae";
-			this.btnSubtrae.Size = new System.Drawing.Size(51, 38);
+			this.btnSubtrae.Size = new System.Drawing.Size(61, 44);
 			this.btnSubtrae.TabIndex = 7;
 			this.btnSubtrae.Text = "-";
 			this.btnSubtrae.UseVisualStyleBackColor = true;
 			// 
 			// btnN6
 			// 
-			this.btnN6.Location = new System.Drawing.Point(128, 139);
+			this.btnN6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnN6.Location = new System.Drawing.Point(141, 211);
 			this.btnN6.Name = "btnN6";
-			this.btnN6.Size = new System.Drawing.Size(51, 38);
+			this.btnN6.Size = new System.Drawing.Size(61, 44);
 			this.btnN6.TabIndex = 6;
 			this.btnN6.Text = "6";
 			this.btnN6.UseVisualStyleBackColor = true;
 			// 
 			// btnN5
 			// 
-			this.btnN5.Location = new System.Drawing.Point(71, 139);
+			this.btnN5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnN5.Location = new System.Drawing.Point(74, 211);
 			this.btnN5.Name = "btnN5";
-			this.btnN5.Size = new System.Drawing.Size(51, 38);
+			this.btnN5.Size = new System.Drawing.Size(61, 44);
 			this.btnN5.TabIndex = 5;
 			this.btnN5.Text = "5";
 			this.btnN5.UseVisualStyleBackColor = true;
 			// 
 			// btnN4
 			// 
-			this.btnN4.Location = new System.Drawing.Point(14, 139);
+			this.btnN4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnN4.Location = new System.Drawing.Point(7, 211);
 			this.btnN4.Name = "btnN4";
-			this.btnN4.Size = new System.Drawing.Size(51, 38);
+			this.btnN4.Size = new System.Drawing.Size(61, 44);
 			this.btnN4.TabIndex = 4;
 			this.btnN4.Text = "4";
 			this.btnN4.UseVisualStyleBackColor = true;
 			// 
 			// btnMultiplica
 			// 
-			this.btnMultiplica.Location = new System.Drawing.Point(185, 183);
+			this.btnMultiplica.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnMultiplica.Location = new System.Drawing.Point(208, 261);
 			this.btnMultiplica.Name = "btnMultiplica";
-			this.btnMultiplica.Size = new System.Drawing.Size(51, 38);
+			this.btnMultiplica.Size = new System.Drawing.Size(61, 44);
 			this.btnMultiplica.TabIndex = 11;
 			this.btnMultiplica.Text = "*";
 			this.btnMultiplica.UseVisualStyleBackColor = true;
 			// 
 			// btnN3
 			// 
-			this.btnN3.Location = new System.Drawing.Point(128, 183);
+			this.btnN3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnN3.Location = new System.Drawing.Point(141, 261);
 			this.btnN3.Name = "btnN3";
-			this.btnN3.Size = new System.Drawing.Size(51, 38);
+			this.btnN3.Size = new System.Drawing.Size(61, 44);
 			this.btnN3.TabIndex = 10;
 			this.btnN3.Text = "3";
 			this.btnN3.UseVisualStyleBackColor = true;
 			// 
 			// btnN2
 			// 
-			this.btnN2.Location = new System.Drawing.Point(71, 183);
+			this.btnN2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnN2.Location = new System.Drawing.Point(74, 261);
 			this.btnN2.Name = "btnN2";
-			this.btnN2.Size = new System.Drawing.Size(51, 38);
+			this.btnN2.Size = new System.Drawing.Size(61, 44);
 			this.btnN2.TabIndex = 9;
 			this.btnN2.Text = "2";
 			this.btnN2.UseVisualStyleBackColor = true;
 			// 
 			// btnN1
 			// 
-			this.btnN1.Location = new System.Drawing.Point(14, 183);
+			this.btnN1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnN1.Location = new System.Drawing.Point(7, 261);
 			this.btnN1.Name = "btnN1";
-			this.btnN1.Size = new System.Drawing.Size(51, 38);
+			this.btnN1.Size = new System.Drawing.Size(61, 44);
 			this.btnN1.TabIndex = 8;
 			this.btnN1.Text = "1";
 			this.btnN1.UseVisualStyleBackColor = true;
 			// 
 			// btnDivide
 			// 
-			this.btnDivide.Location = new System.Drawing.Point(185, 227);
+			this.btnDivide.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnDivide.Location = new System.Drawing.Point(208, 311);
 			this.btnDivide.Name = "btnDivide";
-			this.btnDivide.Size = new System.Drawing.Size(51, 38);
+			this.btnDivide.Size = new System.Drawing.Size(61, 44);
 			this.btnDivide.TabIndex = 15;
 			this.btnDivide.Text = "/";
 			this.btnDivide.UseVisualStyleBackColor = true;
 			// 
 			// btnIgual
 			// 
-			this.btnIgual.Location = new System.Drawing.Point(128, 227);
+			this.btnIgual.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnIgual.Location = new System.Drawing.Point(141, 311);
 			this.btnIgual.Name = "btnIgual";
-			this.btnIgual.Size = new System.Drawing.Size(51, 38);
+			this.btnIgual.Size = new System.Drawing.Size(61, 44);
 			this.btnIgual.TabIndex = 14;
 			this.btnIgual.Text = "=";
 			this.btnIgual.UseVisualStyleBackColor = true;
@@ -178,18 +194,20 @@ namespace WindowsFormsApp1
 			// 
 			// btnN0
 			// 
-			this.btnN0.Location = new System.Drawing.Point(71, 227);
+			this.btnN0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnN0.Location = new System.Drawing.Point(74, 311);
 			this.btnN0.Name = "btnN0";
-			this.btnN0.Size = new System.Drawing.Size(51, 38);
+			this.btnN0.Size = new System.Drawing.Size(61, 44);
 			this.btnN0.TabIndex = 13;
 			this.btnN0.Text = "0";
 			this.btnN0.UseVisualStyleBackColor = true;
 			// 
 			// btnLimpa
 			// 
-			this.btnLimpa.Location = new System.Drawing.Point(14, 227);
+			this.btnLimpa.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnLimpa.Location = new System.Drawing.Point(7, 311);
 			this.btnLimpa.Name = "btnLimpa";
-			this.btnLimpa.Size = new System.Drawing.Size(51, 38);
+			this.btnLimpa.Size = new System.Drawing.Size(61, 44);
 			this.btnLimpa.TabIndex = 12;
 			this.btnLimpa.Text = "C";
 			this.btnLimpa.UseVisualStyleBackColor = true;
@@ -198,14 +216,24 @@ namespace WindowsFormsApp1
 			// TelaResultados
 			// 
 			this.TelaResultados.AutoSize = true;
-			this.TelaResultados.Location = new System.Drawing.Point(52, 39);
+			this.TelaResultados.Location = new System.Drawing.Point(30, 51);
 			this.TelaResultados.Name = "TelaResultados";
 			this.TelaResultados.Size = new System.Drawing.Size(0, 13);
 			this.TelaResultados.TabIndex = 16;
 			// 
+			// TelaHistorico
+			// 
+			this.TelaHistorico.AutoSize = true;
+			this.TelaHistorico.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.TelaHistorico.Location = new System.Drawing.Point(30, 20);
+			this.TelaHistorico.Name = "TelaHistorico";
+			this.TelaHistorico.Size = new System.Drawing.Size(0, 13);
+			this.TelaHistorico.TabIndex = 17;
+			// 
 			// Calculadora
 			// 
-			this.ClientSize = new System.Drawing.Size(257, 285);
+			this.ClientSize = new System.Drawing.Size(277, 362);
+			this.Controls.Add(this.TelaHistorico);
 			this.Controls.Add(this.TelaResultados);
 			this.Controls.Add(this.btnDivide);
 			this.Controls.Add(this.btnIgual);
@@ -223,6 +251,7 @@ namespace WindowsFormsApp1
 			this.Controls.Add(this.btnN9);
 			this.Controls.Add(this.btnN8);
 			this.Controls.Add(this.btnN7);
+			this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MaximizeBox = false;
 			this.Name = "Calculadora";
@@ -258,6 +287,7 @@ namespace WindowsFormsApp1
 		private System.Windows.Forms.Button btnIgual;
 		private System.Windows.Forms.Button btnLimpa;
 		private System.Windows.Forms.Label TelaResultados;
+		private System.Windows.Forms.Label TelaHistorico;
 	}
 }
 

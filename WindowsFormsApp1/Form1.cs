@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 // Aluno Thiago Aio
+// Repositório: https://github.com/thiagoa261/Calculadora
 
 namespace WindowsFormsApp1
 {
@@ -51,12 +52,16 @@ namespace WindowsFormsApp1
 			}
 
 			TelaResultados.Text += btn.Text;
+			TelaHistorico.Text += btn.Text;
 		}
 
 		private void ClicouOperacao(object sender, EventArgs e)
 		{
 			Button btn = (Button)sender;
+
 			operacao = btn.Text[0];
+			TelaHistorico.Text += btn.Text[0];
+
 			num1 = int.Parse(TelaResultados.Text);
 			TelaResultados.Text = "0";
 		}
@@ -87,15 +92,19 @@ namespace WindowsFormsApp1
 
 			else
 			{
+				// não ocorrer nunca se ocorrer erro no código
 				MessageBox.Show("Erro não há operador");
+				btnLimpa_Click(sender, e);
 			}
 
 			TelaResultados.Text = resultado.ToString();
+			TelaHistorico.Text += "=" + resultado.ToString();
 		}
 
 		private void btnLimpa_Click(object sender, EventArgs e)
 		{
 			TelaResultados.Text = "0";
+			TelaHistorico.Text = "";
 		}
 
 		private void Form1_Load(object sender, EventArgs e)
