@@ -46,6 +46,7 @@ namespace WindowsFormsApp1
 			this.btnIgual = new System.Windows.Forms.Button();
 			this.btnN0 = new System.Windows.Forms.Button();
 			this.btnLimpa = new System.Windows.Forms.Button();
+			this.TelaResultados = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// btnN7
@@ -173,6 +174,7 @@ namespace WindowsFormsApp1
 			this.btnIgual.TabIndex = 14;
 			this.btnIgual.Text = "=";
 			this.btnIgual.UseVisualStyleBackColor = true;
+			this.btnIgual.Click += new System.EventHandler(this.btnIgual_Click);
 			// 
 			// btnN0
 			// 
@@ -191,10 +193,20 @@ namespace WindowsFormsApp1
 			this.btnLimpa.TabIndex = 12;
 			this.btnLimpa.Text = "C";
 			this.btnLimpa.UseVisualStyleBackColor = true;
+			this.btnLimpa.Click += new System.EventHandler(this.btnLimpa_Click);
+			// 
+			// TelaResultados
+			// 
+			this.TelaResultados.AutoSize = true;
+			this.TelaResultados.Location = new System.Drawing.Point(52, 39);
+			this.TelaResultados.Name = "TelaResultados";
+			this.TelaResultados.Size = new System.Drawing.Size(0, 13);
+			this.TelaResultados.TabIndex = 16;
 			// 
 			// Calculadora
 			// 
 			this.ClientSize = new System.Drawing.Size(257, 285);
+			this.Controls.Add(this.TelaResultados);
 			this.Controls.Add(this.btnDivide);
 			this.Controls.Add(this.btnIgual);
 			this.Controls.Add(this.btnN0);
@@ -218,6 +230,7 @@ namespace WindowsFormsApp1
 			this.Text = "Calculadora";
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.ResumeLayout(false);
+			this.PerformLayout();
 
 		}
 
@@ -244,6 +257,7 @@ namespace WindowsFormsApp1
 		// outros
 		private System.Windows.Forms.Button btnIgual;
 		private System.Windows.Forms.Button btnLimpa;
+		private System.Windows.Forms.Label TelaResultados;
 	}
 }
 
