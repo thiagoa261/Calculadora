@@ -87,14 +87,22 @@ namespace WindowsFormsApp1
 
 			else if (operacao == '/')
 			{
-				resultado = num1 / num2;
+				if(num2 == 0) {
+					MessageBox.Show("Não existe divisão por zero");
+					btnLimpa_Click(sender, e);
+					return;
+				}
+
+				else
+				{
+					resultado = num1 / num2;
+				}
 			}
 
 			else
 			{
-				// não ocorrer nunca se ocorrer erro no código
 				MessageBox.Show("Erro não há operador");
-				btnLimpa_Click(sender, e);
+				return;
 			}
 
 			TelaResultados.Text = resultado.ToString();

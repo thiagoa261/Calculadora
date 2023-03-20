@@ -83,7 +83,7 @@ namespace WindowsFormsApp1
 			// 
 			// btnSoma
 			// 
-			this.btnSoma.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnSoma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnSoma.Location = new System.Drawing.Point(208, 161);
 			this.btnSoma.Name = "btnSoma";
 			this.btnSoma.Size = new System.Drawing.Size(61, 44);
@@ -93,7 +93,7 @@ namespace WindowsFormsApp1
 			// 
 			// btnSubtrae
 			// 
-			this.btnSubtrae.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnSubtrae.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnSubtrae.Location = new System.Drawing.Point(208, 211);
 			this.btnSubtrae.Name = "btnSubtrae";
 			this.btnSubtrae.Size = new System.Drawing.Size(61, 44);
@@ -133,7 +133,7 @@ namespace WindowsFormsApp1
 			// 
 			// btnMultiplica
 			// 
-			this.btnMultiplica.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnMultiplica.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnMultiplica.Location = new System.Drawing.Point(208, 261);
 			this.btnMultiplica.Name = "btnMultiplica";
 			this.btnMultiplica.Size = new System.Drawing.Size(61, 44);
@@ -173,7 +173,7 @@ namespace WindowsFormsApp1
 			// 
 			// btnDivide
 			// 
-			this.btnDivide.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnDivide.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnDivide.Location = new System.Drawing.Point(208, 311);
 			this.btnDivide.Name = "btnDivide";
 			this.btnDivide.Size = new System.Drawing.Size(61, 44);
@@ -183,13 +183,16 @@ namespace WindowsFormsApp1
 			// 
 			// btnIgual
 			// 
-			this.btnIgual.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnIgual.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+			this.btnIgual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.btnIgual.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnIgual.ForeColor = System.Drawing.Color.White;
 			this.btnIgual.Location = new System.Drawing.Point(141, 311);
 			this.btnIgual.Name = "btnIgual";
 			this.btnIgual.Size = new System.Drawing.Size(61, 44);
 			this.btnIgual.TabIndex = 14;
 			this.btnIgual.Text = "=";
-			this.btnIgual.UseVisualStyleBackColor = true;
+			this.btnIgual.UseVisualStyleBackColor = false;
 			this.btnIgual.Click += new System.EventHandler(this.btnIgual_Click);
 			// 
 			// btnN0
