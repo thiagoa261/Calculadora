@@ -1,2 +1,3 @@
 # Calculadora feita em C#
-![ee5e9cb7-214d-4cfa-9928-925eaa1861c8](https://user-images.githubusercontent.com/80293187/226397914-ee44a260-d98c-46b8-9130-790fd001103b.jpg)
+
+![67bdfbdc-e613-4deb-87c4-7078ad9aa3a9](https://user-images.githubusercontent.com/80293187/226398057-cbf4b84f-214c-4136-9887-1aaceb84aca3.jpg)
